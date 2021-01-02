@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: rgb(29, 26, 26);
+  background: linear-gradient(146deg, #585858 0%, #000000 100%);
 }
 
 h1 {
@@ -59,18 +59,14 @@ h2 {
   margin-bottom: 1rem;
   text-decoration: none;
   color: rgb(28, 26, 26);
-  background: linear-gradient(
-    90deg,
-    rgb(18, 92, 255) 0%,
-    rgb(0, 102, 255) 100%
-  );
+  background: rgb(255, 145, 0);
   border-radius: 4px;
   transition: transform 150ms;
 }
 
 .btn:hover {
   cursor: pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(252, 168, 12, 0.6);
   transform: scale(1.03);
 }
 
@@ -81,18 +77,67 @@ h2 {
 }
 
 #highscore-btn {
-  background: linear-gradient(
-    90deg,
-    rgb(255, 247, 9) 0%,
-    rgb(240, 221, 6) 100%
-  );
+  background: rgb(0, 54, 202);
 }
 
 #highscore-btn:hover {
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(255, 255, 0, 0.5);
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 110, 255, 0.5);
 }
 
 .fa-crown {
+  font-size: 2.5rem;
+  margin-left: 1rem;
+}
+
+.fa-gamepad {
+  font-size: 2.5rem;
+  margin-left: 1rem;
+}
+
+/* end-game.html styles */
+.end-form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 30rem;
+}
+
+input {
+  margin-bottom: 1rem;
+  width: 20rem;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  border: none;
+  box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+#username {
+  margin-bottom: 3rem;
+  width: 100%;
+  outline: none;
+}
+
+#end-text {
+  font-size: 2.4rem;
+  color: #fff;
+  text-align: center;
+}
+
+#saveScoreBtn {
+  border: none;
+}
+
+.fa-save {
+  font-size: 2.5rem;
+  margin-left: 1rem;
+}
+
+.fa-home {
   font-size: 2.5rem;
   margin-left: 1rem;
 }
