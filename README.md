@@ -22,16 +22,16 @@ A project to allow beginners to answer random questions on JavaScript.
 
 https://nickolauscarter.github.io/code-quiz/
 
-Homepage:>
+Homepage:\
 ![Homepage](https://user-images.githubusercontent.com/73920328/103490280-65270080-4de0-11eb-9902-371d3628ed67.PNG)
 
-Quiz Page:>
+Quiz Page:\
 ![Quiz](https://user-images.githubusercontent.com/73920328/103490292-812aa200-4de0-11eb-995c-bb9d1e80da97.PNG)
 
-Game Over:>
+Game Over:\
 ![End Game](https://user-images.githubusercontent.com/73920328/103490301-93a4db80-4de0-11eb-8c1e-cfa83d983ea9.PNG)
 
-High Scores:>
+High Scores:\
 ![High Scores](https://user-images.githubusercontent.com/73920328/103490302-956e9f00-4de0-11eb-92f3-2619a8bce496.PNG)
 
 ## Contribution
