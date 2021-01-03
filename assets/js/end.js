@@ -35,5 +35,5 @@ var saveHighScore = function(e) {
 
   // save high scores to local storage and open high score screen
   localStorage.setItem('highScores', JSON.stringify(highScores));
-  window.location.assign('../../highscores.html')
+  window.location.assign('./highscores.html')
 }
