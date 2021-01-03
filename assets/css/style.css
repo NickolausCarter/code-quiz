@@ -65,7 +65,7 @@ h3 {
   text-decoration: none;
   color: rgb(28, 26, 26);
   background: rgb(255, 145, 0);
-  border-radius: 4px;
+  border-radius: 50px;
   transition: transform 150ms;
 }
 
@@ -75,18 +75,31 @@ h3 {
   transform: scale(1.03);
 }
 
-.btn[disabled]:hover {
-  cursor: not-allowed;
-  box-shadow: none;
-  transform: none;
-}
-
 #highscore-btn {
   background: rgb(0, 54, 202);
 }
 
 #highscore-btn:hover {
   box-shadow: 0 0.4rem 1.4rem 0 rgba(0, 110, 255, 0.5);
+}
+
+#saveScoreBtn {
+  border: none;
+  background: rgb(74, 185, 0);
+}
+
+#saveScoreBtn:hover {
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(51, 255, 0, 0.5);
+}
+
+#saveScoreBtn[disabled] {
+  background: red;
+}
+
+#saveScoreBtn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
 }
 
 .fa-crown {
@@ -131,10 +144,6 @@ input::placeholder {
   font-size: 2.4rem;
   color: #fff;
   text-align: center;
-}
-
-#saveScoreBtn {
-  border: none;
 }
 
 .fa-save {
