@@ -16,11 +16,20 @@ h1 {
   font-size: 5.4rem;
   color: #fff;
   margin-bottom: 5rem;
+  text-align: center;
 }
 
 h2 {
   font-size: 4.2rem;
   margin-bottom: 4rem;
+}
+
+h3 {
+  font-weight: lighter;
+  font-size: 3.2rem;
+  color: #fff;
+  margin-bottom: 4rem;
+  text-align: center;
 }
 
 .container {
@@ -45,10 +54,6 @@ h2 {
 
 .text-center {
   text-align: center;
-}
-
-.hidden {
-  display: none;
 }
 
 .btn {
@@ -140,4 +145,12 @@ input::placeholder {
 .fa-home {
   font-size: 2.5rem;
   margin-left: 1rem;
+}
+
+@media (hover: none) {
+  .btn:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
 }
